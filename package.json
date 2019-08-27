@@ -1,6 +1,6 @@
 {
 	"scripts": {
-        "test": "testcafe firefox:headless AudienceCreation.js"
+        "test": "testcafe chrome:headless AudienceCreation.js"
     },
 
     "devDependencies": {
