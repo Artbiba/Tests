@@ -1,30 +1,28 @@
 {
 
 
-    // "browsers": "chrome",
+    "browsers": "chrome",
 
-    // "src": "EnvironmentAPIKeyRetrievalAndCheck.js",
+    "src": "AudienceCreation.js",
     
-    // // "reporter": {
-    // //     "name": "xunit",
-    // //     "output": "reports/report.xml"
-    // // },
+    // "reporter": {
+    //     "name": "xunit",
+    //     "output": "reports/report.xml"
+    // },
 
-    // // "screenshotPath": "screenshots/",
-    // // "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
-    // // "takeScreenshotsOnFails": true,
+    // "screenshotPath": "screenshots/",
+    // "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    // "takeScreenshotsOnFails": true,
 
-    // "skipJsErrors": true,
-    // "skipUncaughtErrors": true,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
 
-    // // "concurrency": 3,
+    // "concurrency": 3,
 
-    // "selectorTimeout": 3000,
-    // "assertionTimeout": 3000,
-    // "pageLoadTimeout": 3000
+    "selectorTimeout": 3000,
+    "assertionTimeout": 3000,
+    "pageLoadTimeout": 3000
 
-"scripts": {
-    "test":  "testcafe chrome tests/AudienceCreation.js"
-}
+
 
 }
