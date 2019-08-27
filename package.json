@@ -1,6 +1,6 @@
 {
 	"scripts": {
-        "test": "testcafe chrome:headless AudienceCreation.js -e"
+        "test": "testcafe chrome:headless AudienceCreation.js -e -u --speed 0.1"
     },
 
     "devDependencies": {
