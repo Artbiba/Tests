@@ -1,5 +1,9 @@
 {
 	"scripts": {
         "test": "testcafe chrome:headless tests/AudienceCreation.js"
+    },
+
+    "devDependencies": {
+        "testcafe": "*"
     }
 }
