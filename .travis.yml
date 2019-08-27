@@ -21,6 +21,3 @@ before_script:
   - sleep 3
   - fluxbox >/dev/null 2>&1 &
 
-  "scripts": {
-    "test":  "testcafe chrome,firefox tests/AudienceCreation.js"
-}
