@@ -1,0 +1,27 @@
+{
+
+
+    "browsers": "chrome",
+
+    "src": "EnvironmentAPIKeyRetrievalAndCheck.js",
+    
+    // "reporter": {
+    //     "name": "xunit",
+    //     "output": "reports/report.xml"
+    // },
+
+    // "screenshotPath": "screenshots/",
+    // "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    // "takeScreenshotsOnFails": true,
+
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
+
+    // "concurrency": 3,
+
+    "selectorTimeout": 3000,
+    "assertionTimeout": 3000,
+    "pageLoadTimeout": 3000
+
+
+}
