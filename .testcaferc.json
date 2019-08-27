@@ -24,7 +24,7 @@
     // "pageLoadTimeout": 3000
 
 "scripts": {
-    "test":  "testcafe chrome,firefox tests/index-test.js"
+    "test":  "testcafe chrome tests/AudienceCreation.js"
 }
 
 }
