@@ -1,6 +1,6 @@
 {
 	"scripts": {
-        "test": "testcafe chrome:headless AudienceCreation.js -e -u -S -s screenshots -r spec,xunit:report.xml"
+        "test": "testcafe chrome:headless AudienceCreation.js -e -u -S -s screenshots -r xunit:report.xml"
     },
 
     "devDependencies": {
