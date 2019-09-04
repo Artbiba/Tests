@@ -1,6 +1,6 @@
 {
 	"scripts": {
-        "test": "testcafe chrome:headless EventCreation.js -e -u -S screenshots -r json:report.json"
+        "test": "testcafe chrome:headless EventCreation.js -e -u -S -s screenshots"
     },
 
     "devDependencies": {
