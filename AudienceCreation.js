@@ -20,7 +20,7 @@ await t
 await t.wait(5000);
       
 await t
-      .click('a[href*="audiences"] li')
+      .click('a[href*="audiences"] lili')
       .click('main button')
       .typeText('#audiences-undefined input[name = name]', 'Example audience2')
       .typeText('#audiences-undefined textarea[name = description]', 'description2')
