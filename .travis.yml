@@ -21,3 +21,14 @@ before_script:
   - sleep 3
   - fluxbox >/dev/null 2>&1 &
 
+# after_script: 
+#   addons:
+#   artifacts: true
+  # s3_region: "us-west-1"
+
+  deploy:
+    provider: pages 
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    on:
+      branch: master
