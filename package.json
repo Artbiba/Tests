@@ -1,6 +1,6 @@
 {
 	"scripts": {
-        "test": "testcafe chrome AudienceCreation.js -e -u -S -s screenshots -r xunit"
+        "test": "testcafe chrome AudienceCreation.js -e -u -S screenshots"
     },
 
     "devDependencies": {
