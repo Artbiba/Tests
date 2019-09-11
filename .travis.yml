@@ -26,10 +26,10 @@ before_script:
 #   artifacts: true
   # s3_region: "us-west-1"
 
-  deploy:
-    provider: pages 
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    local_dir: build
-    on:
-      branch: master
+  # deploy:
+  #   provider: pages 
+  #   skip-cleanup: true
+  #   github-token: $GITHUB_TOKEN
+  #   local_dir: build
+  #   on:
+  #     branch: master
